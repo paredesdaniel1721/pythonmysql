@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = db.ORACLE
+DATABASES = db.MYSQL
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -145,6 +145,6 @@ EMAIL_HOST = 'smtp.gmail.com'
 
 EMAIL_PORT = 587
 
-EMAIL_HOST_USER = 'djangologin99@gmail.com'
+EMAIL_HOST_USER = 'creandoprueba123@gmail.com'
 
-EMAIL_HOST_PASSWORD = 'dj@ngo1994.'
+EMAIL_HOST_PASSWORD = 'prueba123.'
