@@ -31,10 +31,10 @@ ORACLE = {
 POSTGRESQL = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': '123',
-        'HOST': 'localhost',
+        'PASSWORD': 'postgres',
+        'HOST': 'db',
         'PORT': '5432',
         'OPTIONS': {
             'options': '-c search_path=prueba'
@@ -49,8 +49,8 @@ MYSQL = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'negocios',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'PASSWORD': 'root',
+        'HOST': 'db',
         'PORT': '3306',
         'OPTIONS': {
             'sql_mode': 'traditional',
