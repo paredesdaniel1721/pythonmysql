@@ -47,10 +47,10 @@ POSTGRESQL = {
 MYSQL = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'admin',
+        'NAME': 'negocios',
         'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'db',
+        'PASSWORD': '',
+        'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
             'sql_mode': 'traditional',
