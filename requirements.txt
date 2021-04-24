@@ -3,6 +3,7 @@ cx-Oracle==8.0.1
 Django==3.0.4
 django-crum==0.7.5
 django-widget-tweaks==1.4.8
+gunicorn==20.1.0
 html5lib==1.0.1
 mysqlclient==1.4.6
 Pillow==7.1.1
@@ -14,4 +15,5 @@ reportlab==3.5.42
 six==1.14.0
 sqlparse==0.3.1
 webencodings==0.5.1
+whitenoise==5.2.0
 xhtml2pdf==0.2.4
