@@ -145,7 +145,7 @@ $(function () {
     }).on('change', function () {
         vents.calculate_invoice();
     })
-        .val(0.12);
+        .val(0.18);
 
     // search products
 
